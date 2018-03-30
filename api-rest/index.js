@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost:27017/CPSDB', (err,res) =>{
   if(err){
     throw err;
   }else{
-    console.log('la base de datos esta corriendo correctamente');
+    console.log('La Base de Datos Corre Correctamente');
     app.listen(port, function(){
     console.log('Puerto Corriendo en localhost:'+port);
     });
